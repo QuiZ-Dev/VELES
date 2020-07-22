@@ -1,1 +1,10 @@
-@import "site/style";
+.center{
+    max-width: 1179px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+
+@import "site/header";
+@import "site/variables";

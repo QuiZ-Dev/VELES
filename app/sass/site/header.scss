@@ -1,0 +1,57 @@
+.header{
+    background-color:#161616;
+    width:100%;
+    padding-top: 30px;
+}
+
+
+.header__wrapper{
+    display: flex;
+}
+
+
+.header__logo{
+    display: flex;
+    width: 91px;
+    height: 37px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 38px;
+    margin-top: 4px;
+}
+
+.header__logo-text{
+    color: #ffffff;
+    font: lighter 12px/14px "Raleway";
+    text-transform: uppercase;
+    
+}
+
+.header__menu{
+    display: flex;
+    justify-content: baseline;
+}
+
+.header__menu-lists{
+    display: flex;
+}
+
+.header__menu-list{
+    display: flex;
+    justify-content: baseline;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.header__menu-link{
+    text-decoration: none;
+    color: #ffffff;
+    font: 13px/15px "Raleway";
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.header__menu-contacts{
+    display: flex;
+}
