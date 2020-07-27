@@ -1,0 +1,18 @@
+.slider {
+    background-color:#161616;
+    width:100%;
+}
+
+.slider__slides{
+    display: flex;
+}
+
+.slide__one{
+    display: flex;
+    align-content: flex-end;
+}
+
+.slider__one-img{
+    width: 50%;
+
+}
