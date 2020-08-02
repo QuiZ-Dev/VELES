@@ -1,0 +1,20 @@
+.services{
+    margin-top: 125px;
+    
+}
+
+.services__wrapper{
+    display: block;
+}
+.services__title{
+    font: 600 30px/35px 'Raleway';
+    text-align: center;
+    
+
+}
+.services__main{
+    display: flex;
+    &-section{
+        width: 33.3333%;
+    }
+}

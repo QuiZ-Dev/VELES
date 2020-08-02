@@ -3,16 +3,33 @@
     width:100%;
 }
 
-.slider__slides{
+.slider__wrapper{
     display: flex;
+   
 }
-
-.slide__one{
+.slider__left{
     display: flex;
-    align-content: flex-end;
-}
-
-.slider__one-img{
     width: 50%;
-
+    &-text{
+        color: #FFFFFF;
+        font: bold 27px/32px "Raleway";
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        
+    }
+    &-bottom{
+        display: flex;
+        width: 214px;
+        height: 60px;
+        background-color: $decor-color;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    &-bottom--text{
+        font: bold 18px/21px "Raleway";
+        color: #161616;
+        text-transform: uppercase;
+    }
 }
